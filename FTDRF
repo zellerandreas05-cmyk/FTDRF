@@ -1,0 +1,16 @@
+FTDRF
+Fibonacci Threshold Dyadic Recursive Filter 
+∣ψ⟩n+1=∣ψ⟩n+∣ψ⟩n−1−κ⋅∥EnEn−1−F45:F44∥2⋅d^⊗∣ψ⟩n 
+
+|ψ⟩n+1=|ψ⟩n+|ψ⟩n−1−κ⋅‖EnEn−1−F45F44‖2⋅d̂⊗|ψ⟩n
+the absolute value of psi close angle bracket 
+sub n plus 1 end-sub equals end-absolute-value 
+psi close angle bracket sub n plus the absolute 
+value of psi close angle bracket sub n minus 1 
+end-sub minus kappa center dot the norm of cap 
+E sub n cap E sub n minus 1 end-sub minus the 
+fraction with numerator cap F sub 45 and 
+denominator cap F sub 44 end-fraction end-norm 
+squared center dot d hat raised to the ⊗ power 
+end-absolute-value psi close angle bracket sub n
+|𝜓⟩𝑛+1=|𝜓⟩𝑛+|𝜓⟩𝑛−1−𝜅⋅𝐸𝑛𝐸𝑛−1−𝐹45𝐹442⋅𝑑̂⊗|𝜓⟩𝑛 n
