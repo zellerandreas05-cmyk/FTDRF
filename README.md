@@ -27,6 +27,12 @@ python -m pip install -r requirements.txt
 python -m pip install -e .
 ```
 
+- Or install the released distribution from the GitHub release assets (wheel or sdist):
+
+```bash
+python -m pip install https://github.com/zellerandreas05-cmyk/FTDRF/releases/download/v0.1.0/ftdrf-0.1.0-py3-none-any.whl
+```
+
 - Run the minimal example script:
 
 ```bash
