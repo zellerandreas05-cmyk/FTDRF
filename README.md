@@ -12,3 +12,38 @@ creation of "prior art" (hindering patentability), and license incompatibilities
 Logically, this supports open science by maximizing reproducibility of the recursive dynamics
 (e.g., convergence of occupation probabilities), while maintaining attribution.
 
+
+**Installation & Quickstart**
+
+- Install runtime dependencies (recommended in a venv):
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+- Install package editable (so you can `import ftdrf`):
+
+```bash
+python -m pip install -e .
+```
+
+- Run the minimal example script:
+
+```bash
+python examples/run.py
+```
+
+- Run tests:
+
+```bash
+pytest
+```
+
+- Open the demo notebook (`notebooks/experiment.ipynb`) in JupyterLab or Notebook to interactively run and plot results.
+
+**Notes**
+
+- Preserve the LaTeX and theoretical description at the top of this file; if you want to reformat or extend the exposition, open an issue or discuss in the PR.
+- For new code, place modules under `src/ftdrf/` and tests under `tests/` (use `PYTHONPATH=src pytest` if you haven't installed editable).
+
+*** End Patch

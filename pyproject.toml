@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ftdrf"
+version = "0.1.0"
+description = "Fibonacci Threshold Dyadic Recursive Filter simulation utilities"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.11"
+dependencies = ["numpy", "matplotlib"]
