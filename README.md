@@ -51,5 +51,6 @@ pytest
 
 - Preserve the LaTeX and theoretical description at the top of this file; if you want to reformat or extend the exposition, open an issue or discuss in the PR.
 - For new code, place modules under `src/ftdrf/` and tests under `tests/` (use `PYTHONPATH=src pytest` if you haven't installed editable).
+- **Safety note:** The notebooks and CPU-based simulations are illustrative and intended for local development and exploratory analysis only. They are not a substitute for a quantum simulator/hardware — any claim about behavior on a quantum device must be validated on an actual quantum simulator or quantum hardware (e.g., IBM Q, Rigetti, D-Wave), and will likely require mapping and noise modeling specific to that platform.
 
 *** End Patch
